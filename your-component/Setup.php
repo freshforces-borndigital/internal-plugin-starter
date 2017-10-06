@@ -5,6 +5,9 @@ defined('ABSPATH') or die('Can\'t access directly');
 
 class Setup
 {
+	private $_dir;
+	private $_url;
+	
 	public function __construct()
 	{
 		// $this->_dir = INTERNAL_PLUGIN_DIR . '/your-component';
